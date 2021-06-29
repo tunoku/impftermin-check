@@ -3,6 +3,7 @@ from time import sleep
 
 from selenium import webdriver
 from retry import retry
+
 # REPLACE THE STRING VALUES BELOW THIS LINE
 
 # This is your personal code that comes to your email account after initial manual registration.
@@ -47,7 +48,6 @@ def get_impftermin():
         tkinter.messagebox.showinfo(
             title="Congrats!",
             message="Now go quickly to impfterminservice.de and book your appointment ;)")
-        sleep()
 
 if __name__ == "__main__":
     get_impftermin()
