@@ -1,0 +1,7 @@
+name: impf_termin_check
+dependencies:
+  - python>=3.7
+  - pip
+  - pip:
+    - selenium
+    - retry
